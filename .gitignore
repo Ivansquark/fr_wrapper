@@ -3,6 +3,4 @@
 *.map
 *.bin
 *.elf
-.vscode/
-*.json
 *.directory
