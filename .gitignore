@@ -1,0 +1,8 @@
+*.o
+*.lst
+*.map
+*.bin
+*.elf
+.vscode/
+*.json
+*.directory
