@@ -227,7 +227,7 @@ namespace std
                     //break;    
                     return curr;   
                 }                 
-                curr=curr+mem->size+sizeof(MemBlock); //go to next block    
+                curr=curr+mem->size+sizeof(MemBlock)+align(mem->size); //go to next block    
                 mem=(MemBlock*)(curr - sizeof(MemBlock)); // mem = curr<<3        
             }          
             curr=init_malloc(bytes); // if was not any available blocks
